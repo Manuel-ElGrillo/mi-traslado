@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiTraslado - Contacto</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <header class="header-contact">
+    <nav class="header-nav nav-contact contenedor">
+        <div>
+            <img src="/assets/img/logo.png" alt="Logo">
+        </div>
+        <div>
+            <a href="/index.html">Inicio</a>
+            <a href="/index.html#conductor">Conductor</a>
+            <a href="/contacto.html">Contáctanos</a>
+            <a href="/index.html#app" class="header-nav__descarga">Descargar</a>
+        </div>
+    </nav>
+    </header>
+
+    <!-- Contacto -->
+
+    <section class="contacto">
+        <div class="formulario"> 
+            <form action="" id="contactForm">
+                <h3>Contáctanos</h3>
+                <p>Llena el siguiente formulario y nosotros nos pondremos en contacto contigo.</p>
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Tu nombre" id="nombre" required>
+                <label for="email">Correo Electrónico</label>
+                <input type="email" placeholder="Tu correo electrónico" id="email" required>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" placeholder="Escribe tu mensaje aquí" required></textarea>
+                <button type="submit">Enviar</button>
+                <div class="formulario__succes">
+                    <p>Mensaje enviado con éxito.</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <a href=""> <!-- Link a Youtube -->
+            <img src="/assets/img/youtube.png" alt="Logo Youtube">
+        </a>
+        <a href=""> <!-- Link a IG -->
+            <img src="/assets/img/instagram.png" alt="Logo Instagram">
+        </a>
+        <a href=""> <!-- Link a FB -->
+            <img src="/assets/img/facebook.png" alt="Logo Facebook">
+        </a>
+    </footer>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="/assets/js/contact.js"></script>
+</html>

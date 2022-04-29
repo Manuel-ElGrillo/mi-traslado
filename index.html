@@ -4,132 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiTraslado - Home</title>
+    <title>MiTraslado - Inicio</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/laptop.css" media="(max-width: 1024px)">
+    <link rel="stylesheet" href="/assets/css/tablet.css" media="(max-width: 768px)">
 </head>
 <body>
     
     <!-- Header -->
 
     <header class="header">
-        <nav class="header-navbar">
-            <div class="header-navbar__logo">
-                <a href="/index.html">
-                    <img src="/assets/img/logo.png" alt="logo">
-                </a>
+        <nav class="header-nav contenedor">
+            <div>
+                <img src="/assets/img/logo.png" alt="Logo">
             </div>
             <div>
-                <a href="/index.html">Inicio</a>
-                <a href="#quienes-somos">¿Quiénes somos?</a>
-                <a href="#transportista">Transportista</a>
-                <a href="">Descarga la App</a>
+                <a href="#">Inicio</a>
+                <a href="#conductor">Conductor</a>
+                <a href="/contacto.html">Contáctanos</a>
+                <a href="#app" class="header-nav__descarga">Descargar</a>
             </div>
         </nav>
-        <div class="header-title contenedor">
-            <h1>Movemos <br>Cualquier cosa por ti</h1>
-            <a href="">Descargar</a>
+        <div class="header-texto contenedor">
+            <div>
+                <h1>Movemos <br> cualquier cosa por ti</h1>
+                <h3>Te ofrecemos el mejor servicio de acarreos</h3>
+                <div class="header-texto__btn">
+                    <a href=""> <!--Link para descarga de la App-->
+                        <img src="/assets/img/google-play.svg" alt="Google play logo">
+                        <p>Descargar</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </header>
 
-    <!-- Sección Cards -->
+    <!-- How it works -->
 
-    <section class="seccion-cards contenedor">
-        <div>
-            <img src="/assets/img/car-icon-1.png" alt="Icono camioneta">
-            <h3>Mudanza</h3>
-            <p>MiTraslado te apoya en tu camino de domicilio, brindándote una mudanza fácil y segura.</p>
-        </div>
-        <div>
-            <img src="/assets/img/car-icon-2.png" alt="Icono grúa">
-            <h3>Acarreos</h3>
-            <p> Con MiTraslado transporta tus objetos pequeños de forma fácil, rápida y segura.</p>
-        </div>
-        <div>
-            <img src="/assets/img/car-icon-3.png" alt="Icono carro">
-            <h3>Grúa</h3>
-            <p>MiTraslado te ayuda en la asistencia de grúa para tu vehículo o motocicleta.</p>
-        </div>
-    </section>
-
-    <!-- Sección Quienes Somos -->
-
-    <section class="quienes-somos contenedor" id="quienes-somos">
-        <div class="quienes-somos-texto">
-            <h2>¿Quiénes Somos?</h2>
-            <p>La plataforma tecnológica que conecta clientes con transportadores de carga el cual podrás cotizar y contratar servicios de mudanzas, acarreos y asistencia de grúa.</p>
-        </div>
-        <div>
-            <img src="/assets/img/mi-traslado-1.png" alt="Imagen quines somos">
+    <section class="how-it-works">
+        <h3>How it works</h3>
+        <div class="how-it-works__feats contenedor">
+            <div class="how-it-works__feats-content">
+                <!-- <img src="" alt="">
+                <h4></h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+            </div>
+            <div class="how-it-works__feats-content">
+                <img src="/assets/img/icon-1.png" alt="Icono 1">
+                <h4>Get authorization</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="how-it-works__feats-content">
+                <img src="/assets/img/icon-2.png" alt="Icono 2">
+                <h4>Get the App</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Sección ¿Eres Transportista? -->
+    <!-- Sección Servicio -->
 
-    <div class="border-seccion-transportista">
-        <section class="seccion-transportista contenedor" id="transportista">
+    <section class="servicio">
+        <h2>Solicita tu Servicio</h2>
+        <div class="servicio-content">
+            <img src="/assets/img/clients.png" alt="Servicio MiTraslado">
+            <div class="servicio-content__texto">
+                <h3>Así de fácil funciona <span>MiTraslado</span></h3>
+                <p>Es tan sencillo que solo debes seleccionar tu ubicación de inicio y a donde deseas que llevemos tu acarreo. Queremos ofrecerte el mejor servicio de traslado al mejor precio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Únete -->
+
+    <section class="unete" id="conductor">
+        <h2>Únete a <span>MiTraslado</span></h2>
+        <div class="unete-content">
+            <div class="unete-content__texto">
+                <h3>Registrate como conductor</h3>
+                <p>Registrate como conductor y conoce todas las oportunidades que tiene para ti prestar un servicio de acarreo de calidad.</p>
+                <div class="unete-content__btn">
+                    <a href=""> <!--Link para descarga de la App-->
+                        <img src="/assets/img/google-play.svg" alt="Google play logo">
+                        <p>Conductor</p>
+                    </a>
+                </div>
+            </div>
+            <img src="/assets/img/img-1.png" alt="Conductor">
+        </div>
+    </section>
+
+    <!-- Sección App -->
+
+    <main class="app" id="app">
+        <div class="app-texto contenedor">
             <div>
-                <img src="/assets/img/mi-traslado-2.png" alt="Imagen transportistas">
+                <h2>Transporta todo lo que desees con nosotros</h2>
+                <p>Te brindamos soluciones rápidas y nos encargamos <br> de la logística del traslado de tu acarreo.</p>
+                <div>
+                    <a href=""><!--Link para descarga de la App-->
+                        <img src="/assets/img/Google-play-btn.png" alt="Boton de descarga">
+                    </a>
+                </div>
             </div>
-            <div class="seccion-transportistas-texto">
-                <h2>¿Eres Transportista?</h2>
-                <p>Se parte de esta familia y únete a la comunidad de transportistas de MiTraslado.</p>
-                <a href="#formulario">Únete a MiTraslado</a>
-            </div>
-        </section></div>
-
-    <!-- Banner 1 -->
-
-    <section class="banner-1">
-        <div class="banner-1-texto contenedor">
-            <h2>¡Elije MiTraslado!</h2>
-            <p>Descarga la App MiTraslado y disfruta todos los servicios <br> donde quieras que estés.</p>
-            <a href="">Descarga la App</a>
-        </div>
-    </section>
-
-    <!-- Formulario -->
-
-    <div class="formulario-bg" id="formulario">
-        <form action="" class="formulario">
-            <legend>Llena el siguiente formulario y nosotros nos pondremos en contacto contigo.</legend>
-            <label for="">Nombre</label>
-            <input type="text">
-            <label for="">Número de Teléfono</label>
-            <input type="tel">
-            <label for="">Correo Electrónico</label>
-            <input type="email">
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
+        </div>        
+    </main>
 
     <!-- Footer -->
 
     <footer>
-        <div class="footer-logo">
-            <img src="/assets/img/logo.png" alt="logo">
-        </div>
-        <div class="footer-links">
-            <div>
-                <img src="/assets/img/youtube.svg" alt="Icono YouTube">
-                <a href="">YouTube</a>
-            </div>
-            <div>
-                <img src="/assets/img/instagram.svg" alt="Icono Instagram">
-                <a href="">Instagram</a>
-            </div>
-            <div>
-                <img src="/assets/img/facebook.svg" alt="Icono facebook">
-                <a href="">Facebook</a>
-            </div>
-            <div>
-                <img src="/assets/img/google-play.svg" alt="Icono Google Play">
-                <a href="">Google Play</a>
-            </div>
-        </div>
+        <a href=""> <!-- Link a Youtube -->
+            <img src="/assets/img/youtube.png" alt="Logo Youtube">
+        </a>
+        <a href=""> <!-- Link a IG -->
+            <img src="/assets/img/instagram.png" alt="Logo Instagram">
+        </a>
+        <a href=""> <!-- Link a FB -->
+            <img src="/assets/img/facebook.png" alt="Logo Facebook">
+        </a>
     </footer>
+        
 </body>
 </html>
