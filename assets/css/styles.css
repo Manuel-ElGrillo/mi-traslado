@@ -87,7 +87,7 @@ body {
 
 .header-texto__btn {
     background-color: var(--azul1);
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     width: fit-content;
 }
@@ -229,7 +229,7 @@ body {
 
 .unete-content__btn {
     background-color: var(--azul1);
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     width: fit-content;
 }

@@ -1,5 +1,28 @@
 .header {
-    
+    height: 550px;
+}
+
+.servicio {
+    margin: 70px 0;
+}
+
+.servicio-content {
+    margin-top: -100px;
+    gap: 10px;
+}
+
+.servicio-content img {
+    width: 450px;
+}
+
+.servicio-content__texto {
+    padding-top: 100px;
+}
+
+.app-texto {
+    width: 500px;
+    margin-left: 530px;
+    padding-top: 180px;
 }
 
 

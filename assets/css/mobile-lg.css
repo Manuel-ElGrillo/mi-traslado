@@ -1,0 +1,28 @@
+.header-nav {
+    flex-direction: column;
+}
+
+.app-texto {
+    margin-left: -120px;
+    padding-top: 189px;
+    position: relative;
+}
+
+.app-texto h2 {
+    width: 150px;
+}
+
+.app-texto p {
+    width: 140px;
+}
+
+.app-texto img {
+    position: absolute;
+    left: 205px;
+}
+
+/* Formulario */
+
+.formulario form {
+    width: 270px;
+}

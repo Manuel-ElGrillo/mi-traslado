@@ -1,0 +1,67 @@
+.header {
+    background-position: left;
+}
+
+.header-nav__descarga {
+    display: none;
+}
+
+.header-texto {
+    justify-content: center;
+}
+
+.how-it-works__feats {
+    grid-template-columns: repeat(1,1fr);
+}
+
+.unete-content {
+    grid-template-columns: repeat(1,1fr);
+}
+
+.unete-content__texto {
+    padding-top: 0;
+}
+
+.unete-content__texto h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.unete-content__texto p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.unete-content__btn {
+    margin: 10px auto;
+}
+
+.unete-content img {
+    border-radius: 5px;
+    width: 95%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.app-texto {
+    margin-left: -10px;
+    padding-top: 189px;
+}
+
+.app-texto h2 {
+    width: 200px;
+}
+
+.app-texto p {
+    width: 200px;
+}
+
+/* Formulario */
+
+.formulario form {
+    width: 400px;
+}
+
+.formulario form p {
+    text-align: center;
+}

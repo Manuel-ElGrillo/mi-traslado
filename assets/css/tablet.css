@@ -1,0 +1,56 @@
+.header {
+    background-position: right;
+}
+
+.header-texto {
+    margin-top: 80px;
+}
+
+.header-texto h1 {
+    font-size: 33px;
+}
+
+.header-texto h3 {
+    font-size: 15px;
+}
+
+
+.servicio-content {
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 0;
+}
+.servicio img{
+    width: 100%;
+}
+
+.servicio-content__texto {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.servicio-content__texto h3 {
+    text-align: center;
+}
+
+.app {
+    background-size: contain;
+}
+
+.app-texto {
+    margin-left: 260px;
+    padding-top: 220px;
+}
+
+.app-texto h2 {
+    font-size: 18px;
+}
+
+.app-texto p {
+    font-size: 15px;
+}
+
+/* Formulario */
+
+.formulario form {
+    width: 600px;
+}
