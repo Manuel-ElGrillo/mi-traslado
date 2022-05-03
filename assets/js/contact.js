@@ -1,19 +1,19 @@
 
   const firebaseConfig = {
 
-    apiKey: "AIzaSyAfjwHEQqDIBOq51Es43Ow2YdRtZbLept8",
+    apiKey: "YOUR_API_KEY",
 
-    authDomain: "mi-traslado-1.firebaseapp.com",
+    authDomain: "YOUR_AUTH_DOMAIN",
 
-    databaseURL: "https://mi-traslado-1-default-rtdb.firebaseio.com",
+    databaseURL: "YOUR_DB_URL",
 
-    projectId: "mi-traslado-1",
+    projectId: "YOUR_PROJECT_ID",
 
-    storageBucket: "mi-traslado-1.appspot.com",
+    storageBucket: "YOUR_STORAGE_BUCKET",
 
-    messagingSenderId: "799032553035",
+    messagingSenderId: "YOUR_SENDER",
 
-    appId: "1:799032553035:web:caf8efaec1ab2de82e27ce"
+    appId: "YOUR_APP_ID"
 
   };
 

@@ -14,6 +14,14 @@
     font-size: 15px;
 }
 
+.how-it-works__feats {
+    gap: 30px;
+}
+
+.how-it-works__feats-content h4 {
+    text-align: center;
+}
+
 
 .servicio-content {
     grid-template-columns: repeat(1,1fr);
@@ -32,13 +40,27 @@
     text-align: center;
 }
 
+.unete-content {
+    padding: 0 10px;
+}
+
+.unete-content__texto {
+    padding: 10px;
+}
+
+.unete-content img {
+    width: 350px;
+    height: 350px;
+}
+
 .app {
     background-size: contain;
+    height: 480px;
 }
 
 .app-texto {
     margin-left: 260px;
-    padding-top: 220px;
+    padding-top: 170px;
 }
 
 .app-texto h2 {
@@ -47,6 +69,11 @@
 
 .app-texto p {
     font-size: 15px;
+}
+
+.app-texto img {
+    width: 180px;
+    height: 75px;
 }
 
 /* Formulario */

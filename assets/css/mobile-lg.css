@@ -2,9 +2,14 @@
     flex-direction: column;
 }
 
+.app {
+    height: 350px;
+    margin-bottom: 40px;
+}
+
 .app-texto {
     margin-left: -120px;
-    padding-top: 189px;
+    padding-top: 60px;
     position: relative;
 }
 
@@ -18,8 +23,9 @@
 
 .app-texto img {
     position: absolute;
-    left: 205px;
+    left: 230px;
 }
+
 
 /* Formulario */
 

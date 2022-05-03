@@ -43,9 +43,13 @@
     margin: 0 auto;
 }
 
+.app {
+    height: 400px;
+}
+
 .app-texto {
     margin-left: -10px;
-    padding-top: 189px;
+    padding-top: 90px;
 }
 
 .app-texto h2 {
@@ -55,6 +59,12 @@
 .app-texto p {
     width: 200px;
 }
+
+.app-texto img {
+    width: 170px;
+    height: 65px;
+}
+
 
 /* Formulario */
 
