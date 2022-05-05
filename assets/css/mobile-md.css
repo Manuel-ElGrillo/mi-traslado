@@ -1,0 +1,11 @@
+.header-nav {
+    height: 100px;
+}
+
+.header-nav__links {
+    display: flex;
+}
+
+.header-nav__links a {
+    text-align: center;
+}

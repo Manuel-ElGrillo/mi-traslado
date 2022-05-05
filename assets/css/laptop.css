@@ -31,6 +31,11 @@
     padding: 0 20px;
 }
 
+.unete-content__texto h3::after {
+    width: 0;
+    height: 0;
+}
+
 .app-texto {
     width: 500px;
     margin-left: 530px;

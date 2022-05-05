@@ -216,7 +216,7 @@ body {
 /* Sección únete */
 
 .unete {
-    background-color: var(--azul2);
+    background-color: var(--blanco);
     padding: 10px;
 }
 
@@ -237,10 +237,6 @@ body {
     margin-bottom: 20px;
 }
 
-.unete-content__conductor {
-    border-radius: 50%;
-}
-
 .unete-content__texto {
     display: flex;
     flex-direction: column;
@@ -252,6 +248,17 @@ body {
     font-size: 38px;
     font-weight: 500;
     margin-bottom: 10px;
+    position: relative;
+}
+
+.unete-content__texto h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    width: 165px;
+    height: 5px;
+    background-color: #DC9D6E;
 }
 
 .unete-content__texto p {

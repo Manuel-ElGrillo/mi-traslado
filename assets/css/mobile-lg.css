@@ -2,6 +2,32 @@
     flex-direction: column;
 }
 
+.header-texto{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.header-texto h1 {
+    font-size: 25px;
+}
+
+.header-texto h3 {
+    font-size: 12px;
+}
+
+.header-texto__btn a img {
+    width: 25px;
+    height: 25px;
+}
+
+.header-texto__btn a p {
+    font-size: 15px;
+}
+
+.how-it-works {
+    margin-top: -130px;
+}
+
 .app {
     height: 350px;
     margin-bottom: 40px;

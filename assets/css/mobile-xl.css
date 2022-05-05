@@ -1,5 +1,10 @@
 .header {
-    background-position: left;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.header-nav {
+    padding: 30px;
 }
 
 .header-nav__descarga {
@@ -7,9 +12,17 @@
 }
 
 .header-texto {
-    justify-content: center;
+    justify-content: left;
 }
 
+.header-texto__acarreo::before {
+    content: "\A";
+    white-space: pre;
+}
+
+.how-it-works {
+    margin-top: -70px;
+}
 .how-it-works__feats {
     grid-template-columns: repeat(1,1fr);
 }
