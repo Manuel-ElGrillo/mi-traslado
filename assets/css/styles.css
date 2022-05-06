@@ -7,6 +7,7 @@
     --blanco: #FFF;
     --gris: #D3D3D3;
     --gris2: #F0EFE9;
+    --gris3: #F7F7F7;
     --naranja: #DC9D6E;
     --verde: #b9fcfc50;
 }
@@ -101,12 +102,12 @@ body {
 }
 
 .header-texto__btn a img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .header-texto__btn a p {
-    font-size: 25px;
+    font-size: 20px;
     color: var(--blanco);
     margin: 0 20px;
 }
@@ -171,7 +172,7 @@ body {
 }
 
 .servicio-content img {
-    width: 600px;
+    width: 590px;
     height: 450px;
 }
 
@@ -217,7 +218,6 @@ body {
 
 .unete {
     background-color: var(--blanco);
-    padding: 10px;
 }
 
 
@@ -233,8 +233,9 @@ body {
 .unete-content {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 0 140px;
+    padding: 0 100px;
     margin-bottom: 20px;
+    background-color: var(--gris3);
 }
 
 .unete-content__texto {
@@ -249,16 +250,6 @@ body {
     font-weight: 500;
     margin-bottom: 10px;
     position: relative;
-}
-
-.unete-content__texto h3::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 70px;
-    width: 165px;
-    height: 5px;
-    background-color: #DC9D6E;
 }
 
 .unete-content__texto p {
@@ -296,9 +287,10 @@ body {
 }
 
 .unete-content img {
-    width: 450px;
-    height: 450px;
+    width: 590px;
+    height: 420px;
 }
+
 
 /* Sección App */
 
